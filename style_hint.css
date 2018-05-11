@@ -1,0 +1,46 @@
+#popup{
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0,0,0,0.7);
+}
+
+#popup .popup-body{
+  width: 60%;
+  min-height: 100px;
+
+  margin-left: 20%;
+  margin-top: 5vh;
+
+  background-color: white;
+  padding: 30px;
+
+  box-sizing: border-box;
+}
+
+#popup .closeButton {
+  color: #EEE;
+  background-color: #666;
+
+  text-align: center;
+
+  width: 100px;
+  margin: 0 auto;
+}
+
+.menu-button {
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px 0;
+
+  text-align: center;
+
+  color: #EEE;
+  background-color: #f75d65;
+
+  list-style-type: none;
+}
